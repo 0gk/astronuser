@@ -1,4 +1,6 @@
+
 return {
+  
   -- Configure AstroNvim updates
   updater = {
     remote = "origin", -- remote to use
@@ -69,6 +71,7 @@ return {
   -- augroups/autocommands and custom filetypes also this just pure lua so
   -- anything that doesn't fit in the normal config locations above can go here
   polish = function()
+    -- vim.o.mouse = ''
     -- Set up custom filetypes
     -- vim.filetype.add {
     --   extension = {
